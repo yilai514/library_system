@@ -6,7 +6,7 @@ Unable to package Spring boot into a jar file.
 
 Execute Vue
 1. Go to the project location and use command lines to execute the program.
-> cd YOURPATH/book-borrowing-system/
+> cd YOURPATH/book-borrowing-system/ \n
 > npm run dev
 2. Use a browser to view the web page at http://localhost:8080/
 
