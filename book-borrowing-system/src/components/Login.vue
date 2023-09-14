@@ -9,7 +9,9 @@
             <input type="checkbox" v-model="showpwd">
             <label for="checkbox">Show Password</label>
         </p>
-        <button>Login</button>
+        <router-link to='/menu'>
+          <button>Login</button>
+        </router-link>
         <router-link to='/register'>
             <button>Register</button>
         </router-link>

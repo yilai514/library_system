@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/components/Login.vue'
 import Register from '@/components/Register.vue'
-import SpringBoot from '@/components/SpringBoot.vue'
+import Menu from '@/components/Menu.vue'
+import BB from '@/components/BorrowBook.vue'
+import RB from '@/components/ReturnBook.vue'
 
 Vue.use(Router)
 
@@ -19,9 +21,19 @@ export default new Router({
       component: Register
     },
     {
-      path: '/springboot',
-      name: 'SpringBoot',
-      component: SpringBoot
+      path: '/menu',
+      name: 'Menu',
+      component: Menu
+    },
+    {
+      path: '/booklist',
+      name: 'BorrowBook',
+      component: BB
+    },
+    {
+      path: '/onloanbooklist',
+      name: 'ReturnBook',
+      component: RB
     }
   ]
 })
